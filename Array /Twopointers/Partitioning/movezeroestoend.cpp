@@ -46,6 +46,20 @@ void movezeroestoend(vector<int>& v){
     //         swap(v[slow++],v[fast]);
     // }
 
+    //Method 4 - The Most optimal way idea of next permutation question also 
+    // int n = v.size();
+    // int j = -1;
+    // for(int i = 0; i < n ; i++){
+    //     if(v[i] == 0){
+    //         j = i;
+    //         break;
+    //     }
+    // }
+
+    // if(j == -1) return ;
+
+    // for(int i = j + 1; i < n ; i++)
+    //     if(v[i] != 0) swap(v[i],v[j++]);
     
 }
 int main(){
